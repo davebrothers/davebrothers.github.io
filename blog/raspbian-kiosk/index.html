@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Raspbian Jessie Kiosk</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #dedede;
+    }
+
+    :root {
+        --accent: #3d6791;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans">
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.54.0" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Raspbian Jessie Kiosk</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/blog">Blog</a></li>
+                            
+                                <li><a href="/snapshots">Snapshots</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="https://github.com/davebrothers"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/davebrothers"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://open.spotify.com/user/brothers.dave?si=c06YS2p3RKyl6fkwa_ky7A"><i class="fa fa-spotify"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.goodreads.com/user/show/7233955-dave-brothers"><i class="fa fa-book"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/blog/raspbian-kiosk/">Raspbian Jessie Kiosk</a></h4>
+    <h5>April 15, 2016</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<p><meta itemprop="keywords" content="raspberry pi, linux, kiosk, raspbian, hacking, computer, lxde" /></p>
+
+<p>Who doesn&rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability,
+and utility in a palm-sized package. I&rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios,
+Hubots, and the list goes on. At work, one of the neater applications we&rsquo;ve had for it has been as a series of kiosk displays
+around campus that report stats on sales, performance, and logistics to everyone.</p>
+
+<p>Recently, we&rsquo;ve been going through a re-imagining of the project. For the last couple of years, the displays have dished up a serviceable little
+in-house combo of AngularJS app on top of an ASP.NET API. Nothing special: mostly just tables and a few diagrams with the facts.
+But now we&rsquo;re replacing it all. The Web API has already been swapped out for a super-fun <a href="http://nancyfx.org">Nancy</a> service and we&rsquo;re
+in the process of upgrading the hardware from Pi 1 Model A and Bs to Pi 3 Model Bs.</p>
+
+<p>I wanted to work out the most dead-simple solution using the Pi 3&rsquo;s default distribution, Jessie, for which Chromium (an integral part of
+our previous solutions) is presently not easily available. I ended up with a 2-file, 9-line solution that seems to work pretty well.</p>
+
+<h3 id="the-good-bits">The Good Bits:</h3>
+
+<h2 id="autostart">Autostart</h2>
+
+<p>Jessie handles LXDE autostart somewhat differently than I&rsquo;m used to. As <a href="http://raspberrypi.stackexchange.com/questions/42633/raspberry-pi-autostart-of-lxde-does-not-work">this Stack Exchange post</a>
+explains, Jessie takes the liberty of silently giving the user an autostart file, so any changes you might hammer into the global autostart
+file get ignored. So we head to <code>~/.config/lxsession/LXDE-pi/autostart</code>.</p>
+
+<p>We make it look like this:</p>
+
+<pre><code>@xset s off
+@xset -dpms
+@start_kiosk.sh
+</code></pre>
+
+<p>Save that and create, as root, the referenced <code>start_kiosk.sh</code> file in <code>/usr/bin/</code>.</p>
+
+<h2 id="startup-script">Startup script</h2>
+
+<pre><code>#!/bin/sh
+
+epiphany-browser -a --profile /home/pi/.config http://example.com &amp;
+sleep 5s
+echo key F11 | xte
+</code></pre>
+
+<p>It&rsquo;s worth noting this requires a single package that doesn&rsquo;t come with the system image: <a href="http://linux.die.net/man/7/xautomation">xautomation</a>.
+Don&rsquo;t forget to install that or your kiosk won&rsquo;t go fullscreen on launch. Epiphany-browser doesn&rsquo;t seem to have a documented way to start
+fullscreen from the command line, so we&rsquo;re using xte to actually create the F11 key press.</p>
+
+<p>With this saved snugly in <code>/usr/bin/</code> and therefore the path, make it executable (<code>chmod +x</code>). And that&rsquo;s pretty much it. Boot up your
+little buddy and enjoy your kiosk!</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; 2019 Dave Brothers <small>Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></small></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

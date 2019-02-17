@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on dave</title>
+    <link>/tags/music/</link>
+    <description>Recent content in Music on dave</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Flinging Spring</title>
+      <link>/blog/spring-fling/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/spring-fling/</guid>
+      <description>Got to play the WSSL stage at Spartanburg&amp;rsquo;s Spring Fling this year with The Social Contracts. If you haven&amp;rsquo;t heard TSC yet, make sure to check out the self-titled album from this past year. The city of Spartanburg was, of course, a gracious host and really knows how to put on a polished street fair.
+Our one-hour set:
+ Mama Tried Sugaree Night Speaks to a Woman Dumb and Defeated A Woman Come and Gone   </description>
+    </item>
+    
+  </channel>
+</rss>
