@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on dave</title>
+    <link>https://davebrothers.github.io/tags/personal/</link>
+    <description>Recent content in Personal on dave</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 21 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davebrothers.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Proud to Be</title>
+      <link>https://davebrothers.github.io/blog/proud-to-be/</link>
+      <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.github.io/blog/proud-to-be/</guid>
+      <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
+Human
+Being
+Human
+It is our privilege and burden to struggle toward understanding. As soon as we think we have it, we find holes in the bottoms of its pockets and we go further looking for the key we are sure was just there. Scraping, scrounging.
+On Duval Street, there are candles rocking in the evening breeze: golden cat&amp;rsquo;s eyes twinkle and sway.</description>
+    </item>
+    
+  </channel>
+</rss>

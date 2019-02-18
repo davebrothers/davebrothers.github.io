@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>T1d on dave</title>
+    <link>https://davebrothers.github.io/tags/t1d/</link>
+    <description>Recent content in T1d on dave</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davebrothers.github.io/tags/t1d/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lights, Camera, Cure</title>
+      <link>https://davebrothers.github.io/blog/lights-camera-cure/</link>
+      <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.github.io/blog/lights-camera-cure/</guid>
+      <description>This all started with an unassuming deal. I’d “take care of myself,” and Mom would do everything in her power to move the needle closer to a cure. Neither of us had the foresight to even begin wrapping our minds around what that would come to mean in these first twenty years. We just knew we had an arrangement. So we shook on it. We used our hands to bind it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -25,9 +25,9 @@
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://davebrothers.github.io/blog/spring-fling/</guid>
-      <description>Got to play the WSSL stage at Spartanburg&amp;rsquo;s Spring Fling this year with The Social Contracts. If you haven&amp;rsquo;t heard TSC yet, make sure to check out the self-titled album from this past year. The city of Spartanburg was, of course, a gracious host and really knows how to put on a polished street fair.
-Our one-hour set:
- Mama Tried Sugaree Night Speaks to a Woman Dumb and Defeated A Woman Come and Gone   </description>
+      <description>img[src$=&#34;cntr&#34;] { display:inline; margin: 0 auto; max-width: 100%; }  
+Got to play the WSSL stage at Spartanburg&amp;rsquo;s Spring Fling this year with The Social Contracts. If you haven&amp;rsquo;t heard TSC yet, make sure to check out the self-titled album from this past year. The city of Spartanburg was, of course, a gracious host and really knows how to put on a polished street fair.
+Our one-hour set:</description>
     </item>
     
     <item>
@@ -55,11 +55,12 @@ Sound, like light, is energy. We hear and feel sound in waves, vibrations that m
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://davebrothers.github.io/blog/proud-to-be/</guid>
-      <description>Human
+      <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
+Human
 Being
 Human
 It is our privilege and burden to struggle toward understanding. As soon as we think we have it, we find holes in the bottoms of its pockets and we go further looking for the key we are sure was just there. Scraping, scrounging.
-On Duval Street, there are candles rocking in the evening breeze: golden cat&amp;rsquo;s eyes twinkle and sway. There are colors draped and stretched tight to catch the last soft whispers of light before they&amp;rsquo;re gone over the rim of blue-green creation.</description>
+On Duval Street, there are candles rocking in the evening breeze: golden cat&amp;rsquo;s eyes twinkle and sway.</description>
     </item>
     
     <item>
@@ -68,7 +69,8 @@ On Duval Street, there are candles rocking in the evening breeze: golden cat&amp
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://davebrothers.github.io/blog/a-question-of-image/</guid>
-      <description>Like any other subculture, computering* attracts participants with some interesting personality quirks that can lend themselves to a certain degree of generalization. So many of us like to say we disapprove of stereotypes, and while they typically don&amp;rsquo;t do any favors for presupposition and blind judgement, they exist for a reason.
+      <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
+Like any other subculture, computering* attracts participants with some interesting personality quirks that can lend themselves to a certain degree of generalization. So many of us like to say we disapprove of stereotypes, and while they typically don&amp;rsquo;t do any favors for presupposition and blind judgement, they exist for a reason.
 For the last couple of years, I have worked to understand what feels like an obsession with image within this subculture.</description>
     </item>
     
@@ -78,7 +80,8 @@ For the last couple of years, I have worked to understand what feels like an obs
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://davebrothers.github.io/blog/raspbian-kiosk/</guid>
-      <description>Who doesn&amp;rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability, and utility in a palm-sized package. I&amp;rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios, Hubots, and the list goes on. At work, one of the neater applications we&amp;rsquo;ve had for it has been as a series of kiosk displays around campus that report stats on sales, performance, and logistics to everyone.</description>
+      <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
+Who doesn&amp;rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability, and utility in a palm-sized package. I&amp;rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios, Hubots, and the list goes on. At work, one of the neater applications we&amp;rsquo;ve had for it has been as a series of kiosk displays around campus that report stats on sales, performance, and logistics to everyone.</description>
     </item>
     
   </channel>
