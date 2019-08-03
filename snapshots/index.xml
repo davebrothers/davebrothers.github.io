@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snapshots on dave</title>
+    <link>https://davebrothers.com/snapshots/</link>
+    <description>Recent content in Snapshots on dave</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davebrothers.com/snapshots/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019</title>
+      <link>https://davebrothers.com/snapshots/2019/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.com/snapshots/2019/</guid>
+      <description> Summer 2019  Spring 2019  Winter 2019  </description>
+    </item>
+    
+    <item>
+      <title>2018</title>
+      <link>https://davebrothers.com/snapshots/2018/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.com/snapshots/2018/</guid>
+      <description> Fall 2018  Summer 2018  Spring 2018  Winter 2018  </description>
+    </item>
+    
+    <item>
+      <title>2017</title>
+      <link>https://davebrothers.com/snapshots/2017/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.com/snapshots/2017/</guid>
+      <description> Fall 2017  </description>
+    </item>
+    
+  </channel>
+</rss>

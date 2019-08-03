@@ -5,18 +5,36 @@
     <link>https://davebrothers.com/</link>
     <description>Recent content in daveBrothers on dave</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://davebrothers.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Snapshots</title>
-      <link>https://davebrothers.com/snapshots/</link>
-      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      <title>2019</title>
+      <link>https://davebrothers.com/snapshots/2019/</link>
+      <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.com/snapshots/</guid>
-      <description> Winter 2019  Fall 2018  Summer 2018  Spring 2018  Winter 2018  Fall 2017  </description>
+      <guid>https://davebrothers.com/snapshots/2019/</guid>
+      <description> Summer 2019  Spring 2019  Winter 2019  </description>
+    </item>
+    
+    <item>
+      <title>2018</title>
+      <link>https://davebrothers.com/snapshots/2018/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.com/snapshots/2018/</guid>
+      <description> Fall 2018  Summer 2018  Spring 2018  Winter 2018  </description>
+    </item>
+    
+    <item>
+      <title>2017</title>
+      <link>https://davebrothers.com/snapshots/2017/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://davebrothers.com/snapshots/2017/</guid>
+      <description> Fall 2017  </description>
     </item>
     
     <item>
