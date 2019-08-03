@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev on dave</title>
-    <link>https://davebrothers.com/tags/dev/</link>
+    <link>https://davebrothers.github.io/tags/dev/</link>
     <description>Recent content in Dev on dave</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 25 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://davebrothers.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davebrothers.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Question of Image</title>
-      <link>https://davebrothers.com/blog/a-question-of-image/</link>
+      <link>https://davebrothers.github.io/blog/a-question-of-image/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.com/blog/a-question-of-image/</guid>
+      <guid>https://davebrothers.github.io/blog/a-question-of-image/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
 Like any other subculture, computering* attracts participants with some interesting personality quirks that can lend themselves to a certain degree of generalization. So many of us like to say we disapprove of stereotypes, and while they typically don&amp;rsquo;t do any favors for presupposition and blind judgement, they exist for a reason.
 For the last couple of years, I have worked to understand what feels like an obsession with image within this subculture.</description>
@@ -23,10 +23,10 @@ For the last couple of years, I have worked to understand what feels like an obs
     
     <item>
       <title>Raspbian Jessie Kiosk</title>
-      <link>https://davebrothers.com/blog/raspbian-kiosk/</link>
+      <link>https://davebrothers.github.io/blog/raspbian-kiosk/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.com/blog/raspbian-kiosk/</guid>
+      <guid>https://davebrothers.github.io/blog/raspbian-kiosk/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
 Who doesn&amp;rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability, and utility in a palm-sized package. I&amp;rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios, Hubots, and the list goes on. At work, one of the neater applications we&amp;rsquo;ve had for it has been as a series of kiosk displays around campus that report stats on sales, performance, and logistics to everyone.</description>
     </item>
