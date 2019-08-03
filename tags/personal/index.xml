@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on dave</title>
-    <link>https://davebrothers.github.io/tags/personal/</link>
+    <link>https://davebrothers.com/tags/personal/</link>
     <description>Recent content in Personal on dave</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 21 Jun 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://davebrothers.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davebrothers.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Proud to Be</title>
-      <link>https://davebrothers.github.io/blog/proud-to-be/</link>
+      <link>https://davebrothers.com/blog/proud-to-be/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/proud-to-be/</guid>
+      <guid>https://davebrothers.com/blog/proud-to-be/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
 Human
 Being

@@ -2,16 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>daveBrothers on dave</title>
-    <link>https://davebrothers.github.io/</link>
+    <link>https://davebrothers.com/</link>
     <description>Recent content in daveBrothers on dave</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 02 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://davebrothers.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davebrothers.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-<<<<<<< HEAD
       <title>2019</title>
       <link>https://davebrothers.com/snapshots/2019/</link>
       <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
@@ -36,22 +35,14 @@
       
       <guid>https://davebrothers.com/snapshots/2017/</guid>
       <description> Fall 2017  </description>
-=======
-      <title>Snapshots</title>
-      <link>https://davebrothers.github.io/snapshots/</link>
-      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://davebrothers.github.io/snapshots/</guid>
-      <description> Spring 2019  Winter 2019  Fall 2018  Summer 2018  Spring 2018  Winter 2018  Fall 2017  </description>
->>>>>>> ab076cf7d392424ce2b997211620efb1e6870cf1
     </item>
     
     <item>
       <title>Flinging Spring</title>
-      <link>https://davebrothers.github.io/blog/spring-fling/</link>
+      <link>https://davebrothers.com/blog/spring-fling/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/spring-fling/</guid>
+      <guid>https://davebrothers.com/blog/spring-fling/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:inline; margin: 0 auto; max-width: 100%; }  
 Got to play the WSSL stage at Spartanburg&amp;rsquo;s Spring Fling this year with The Social Contracts. If you haven&amp;rsquo;t heard TSC yet, make sure to check out the self-titled album from this past year. The city of Spartanburg was, of course, a gracious host and really knows how to put on a polished street fair.
 Our one-hour set:</description>
@@ -59,29 +50,29 @@ Our one-hour set:</description>
     
     <item>
       <title>Lights, Camera, Cure</title>
-      <link>https://davebrothers.github.io/blog/lights-camera-cure/</link>
+      <link>https://davebrothers.com/blog/lights-camera-cure/</link>
       <pubDate>Mon, 06 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/lights-camera-cure/</guid>
+      <guid>https://davebrothers.com/blog/lights-camera-cure/</guid>
       <description>This all started with an unassuming deal. I’d “take care of myself,” and Mom would do everything in her power to move the needle closer to a cure. Neither of us had the foresight to even begin wrapping our minds around what that would come to mean in these first twenty years. We just knew we had an arrangement. So we shook on it. We used our hands to bind it.</description>
     </item>
     
     <item>
       <title>The Light Bulb Limiter</title>
-      <link>https://davebrothers.github.io/blog/light-bulb-limiter/</link>
+      <link>https://davebrothers.com/blog/light-bulb-limiter/</link>
       <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/light-bulb-limiter/</guid>
+      <guid>https://davebrothers.com/blog/light-bulb-limiter/</guid>
       <description>In today&amp;rsquo;s episode, Dave gets struck by enLIGHTenment.
 Sound, like light, is energy. We hear and feel sound in waves, vibrations that move through the air, the wall, the floor. If you&amp;rsquo;ve ever pulled up to a stop light and heard some super-loud jams, you have the idea. So music moves us: not just emotionally, but physically. To me, that duplicitous sensory experience is just one of the things that makes it awesome.</description>
     </item>
     
     <item>
       <title>Proud to Be</title>
-      <link>https://davebrothers.github.io/blog/proud-to-be/</link>
+      <link>https://davebrothers.com/blog/proud-to-be/</link>
       <pubDate>Tue, 21 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/proud-to-be/</guid>
+      <guid>https://davebrothers.com/blog/proud-to-be/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
 Human
 Being
@@ -92,10 +83,10 @@ On Duval Street, there are candles rocking in the evening breeze: golden cat&amp
     
     <item>
       <title>A Question of Image</title>
-      <link>https://davebrothers.github.io/blog/a-question-of-image/</link>
+      <link>https://davebrothers.com/blog/a-question-of-image/</link>
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/a-question-of-image/</guid>
+      <guid>https://davebrothers.com/blog/a-question-of-image/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
 Like any other subculture, computering* attracts participants with some interesting personality quirks that can lend themselves to a certain degree of generalization. So many of us like to say we disapprove of stereotypes, and while they typically don&amp;rsquo;t do any favors for presupposition and blind judgement, they exist for a reason.
 For the last couple of years, I have worked to understand what feels like an obsession with image within this subculture.</description>
@@ -103,10 +94,10 @@ For the last couple of years, I have worked to understand what feels like an obs
     
     <item>
       <title>Raspbian Jessie Kiosk</title>
-      <link>https://davebrothers.github.io/blog/raspbian-kiosk/</link>
+      <link>https://davebrothers.com/blog/raspbian-kiosk/</link>
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davebrothers.github.io/blog/raspbian-kiosk/</guid>
+      <guid>https://davebrothers.com/blog/raspbian-kiosk/</guid>
       <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
 Who doesn&amp;rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability, and utility in a palm-sized package. I&amp;rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios, Hubots, and the list goes on. At work, one of the neater applications we&amp;rsquo;ve had for it has been as a series of kiosk displays around campus that report stats on sales, performance, and logistics to everyone.</description>
     </item>
