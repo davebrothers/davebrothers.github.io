@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://davebrothers.com/snapshots/2020/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davebrothers.com/blog/an-open-letter-to-greenville-co-council/</loc>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davebrothers.com/blog/message-from-oakville/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://davebrothers.com/snapshots/2019/</loc>
     <lastmod>2019-08-02T00:00:00+00:00</lastmod>
   </url>
@@ -28,6 +43,11 @@
   </url>
   
   <url>
+    <loc>https://davebrothers.com/blog/memento/</loc>
+    <lastmod>2017-04-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://davebrothers.com/blog/lights-camera-cure/</loc>
     <lastmod>2017-03-06T00:00:00+00:00</lastmod>
   </url>
@@ -35,6 +55,11 @@
   <url>
     <loc>https://davebrothers.com/blog/light-bulb-limiter/</loc>
     <lastmod>2016-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://davebrothers.com/blog/sketch-for-ag/</loc>
+    <lastmod>2016-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -54,7 +79,7 @@
   
   <url>
     <loc>https://davebrothers.com/blog/</loc>
-    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -76,7 +101,13 @@
   
   <url>
     <loc>https://davebrothers.com/tags/personal/</loc>
-    <lastmod>2016-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://davebrothers.com/tags/poem/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,7 +125,7 @@
   
   <url>
     <loc>https://davebrothers.com/</loc>
-    <lastmod>2019-08-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-28T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
