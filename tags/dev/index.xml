@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dev on dave</title>
+    <title>dev on dave</title>
     <link>https://davebrothers.com/tags/dev/</link>
-    <description>Recent content in Dev on dave</description>
+    <description>Recent content in dev on dave</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 25 Apr 2016 00:00:00 +0000</lastBuildDate>
     
@@ -16,8 +16,7 @@
       <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://davebrothers.com/blog/a-question-of-image/</guid>
-      <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
-Working in development for the last couple of years, I have tried to understand what feels like an obsession with image within the culture of &amp;ldquo;computering&amp;rdquo;*. Often &amp;ndash; too often &amp;ndash; I catch conversations among computerers derailing the sensibility train by combatively aligning with something as simple as a text editor. Like politics, like sports, like essentially any institution left to the devices of man, computering has a seedy underbelly of elitism derived from personal preference which is mired in whole flocks of grown men and women acting like they are superior in some way to others because of the toys in their toy box.</description>
+      <description>Working in development for the last couple of years, I have tried to understand what feels like an obsession with image within the culture of &amp;ldquo;computering&amp;quot;*. Often &amp;ndash; too often &amp;ndash; I catch conversations among computerers derailing the sensibility train by combatively aligning with something as simple as a text editor. Like politics, like sports, like essentially any institution left to the devices of man, computering has a seedy underbelly of elitism derived from personal preference which is mired in whole flocks of grown men and women acting like they are superior in some way to others because of the toys in their toy box.</description>
     </item>
     
     <item>
@@ -26,8 +25,7 @@ Working in development for the last couple of years, I have tried to understand 
       <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://davebrothers.com/blog/raspbian-kiosk/</guid>
-      <description>img[src$=&#34;cntr&#34;] { display:block; margin: 0 auto; }  
-Who doesn&amp;rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability, and utility in a palm-sized package. I&amp;rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios, Hubots, and the list goes on. At work, one of the neater applications we&amp;rsquo;ve had for it has been as a series of kiosk displays around campus that report stats on sales, performance, and logistics to everyone.</description>
+      <description>Who doesn&amp;rsquo;t love a Raspberry Pi? The little cruncher that can has spent the last couple of years redefining accessibility, portability, and utility in a palm-sized package. I&amp;rsquo;ve enjoyed their practicality and approachability at work and at play: app servers, radios, Hubots, and the list goes on. At work, one of the neater applications we&amp;rsquo;ve had for it has been as a series of kiosk displays around campus that report stats on sales, performance, and logistics to everyone.</description>
     </item>
     
   </channel>
